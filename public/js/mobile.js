@@ -189,6 +189,7 @@ $(document).ready(function () {
             pin: $("#joinPin").val(),
             phone: $("#joinPhone").val(),
             email: $("#joinEmail").val(),
+            memo: $("#joinMemo").val(),
             postid: targetId,
             isAccepted:true
         }
@@ -301,7 +302,7 @@ $(document).ready(function () {
                                     </p>
 
                                     <p>
-                                        <textarea value="Memo" id="joinMemo" class="postInput"></textarea>
+                                        <input value="Memo" id="joinMemo" class="postInput"></input>
                                     </p>                                    
                                 </div>
 
