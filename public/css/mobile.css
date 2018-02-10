@@ -1,0 +1,375 @@
+
+
+#navBar, #footer{
+    background-color:#07AAFF;
+    position:relative;
+    z-index:5;
+    box-shadow: 0px 5px #575757;
+    width:100%
+}
+
+.postInput,.postInputSelect{
+    width: 100px;
+    margin-right: 20px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid grey;
+}
+
+#postTime{
+    font-size:13px;
+}
+
+
+#postDiv{
+    position: relative;
+    top: 20px;
+    left:25px;
+    font-weight: bold;
+    width:250px;
+}
+
+.postItem{
+    margin-right:10px;
+    position:relative;
+    left:0px;
+    top:0px;
+    width:115px;
+    float:left;
+    margin-bottom:20px;
+}
+
+#joinMemo{
+    width: 225px;
+    height: 135px;
+}
+
+body{
+    color:white;    
+    font-family: 'Comfortaa', cursive;
+}
+#container{
+    position: absolute;
+    background-image: url(../images/bg.png);
+    width: 97%;
+    height: 97%;
+    max-width: 1024px;
+    border: 2px solid #07AAFF;
+    min-width: 360px;
+}
+
+#blackout{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:black;
+    opacity:0.75;
+    z-index:4;
+    display:none;
+}
+
+#navbar{
+    top:0;
+    height:45px;
+}
+
+#footer{
+    bottom:0;
+    height:30px;
+    position:absolute
+}
+
+#logoImg{
+    right: 60px;
+    top: 5;
+    position: absolute;
+    height: 40px
+}
+
+
+#mobileMenu{
+    position: relative;
+    top: 26%;
+    margin-left: 20%;
+    z-index: 3;
+    display: block;
+    font-size: 40px;
+    width: 255px;
+}
+
+li{
+    padding-bottom:25px;
+    font-style: underline
+}
+
+a:hover{
+    font-weight:bold;
+    text-decoration: underline;
+    cursor:pointer
+}
+
+
+#footerText{
+    position:relative;
+    left:3%;
+    top:5px;
+}
+
+#mobileButton{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    height: 35px; 
+    z-index:5;
+}
+
+#mobileButton:hover{
+    background-color:grey
+}
+
+#bodyDiv{
+    position:relative;
+    z-index:1;
+    width:300px;
+    height:80%;
+    opacity:0.95;
+    left:12%
+}
+
+#postBtn, #joinBtn, #startBtn,#goBackBtn,#checkBtn, #checkRideBtn, #checkPostBtn{
+    position: absolute;
+    background-color:#07AAFF;
+    color:white;
+    border:none;
+    border-radius: 25px;
+    font-family: 'Acme', sans-serif;
+    box-shadow: 5px 8px #575757;
+    cursor:pointer
+}
+
+#postBtn:hover,#joinBtn:hover,#checkBtn:hover,#checkRideBtn:hover, #checkPostBtn:hover{
+    background-color: #575757;
+}
+
+.destination:hover, .departure:hover{
+    font-weight:bold;
+    color:#262693
+}
+
+
+.formBtn{
+    position: relative;
+    background-color: #07AAFF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Acme', sans-serif;
+    cursor: pointer;
+    width: 140px;
+    height: 42px;
+    font-size: 30px;
+}
+
+#joinBtninside, #postBtnInside{
+    left: 42px;
+    top: 17px;
+}
+
+#leftDiv{
+    position: absolute;
+    background-color: #07AAFF;
+    border: white solid 2px;
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+    cursor: pointer;
+    z-index: 5;
+    left: 4px;
+    top: 3px;
+}
+
+#arrowTxt{
+    position: absolute;
+    left: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    top: -5px;
+}
+
+
+
+#leftDiv:hover,.formBtn:hover{
+    background-color: #575757
+}
+
+#startBtn{    
+    top:30%;
+    left:12%;
+    width:220px;
+    height:180px; 
+    font-size:50px;
+}
+
+#postBtn, #joinBtn, #checkBtn, #checkRideBtn, #checkPostBtn{
+    width:210px;
+    height:90px;
+    font-size:40px;
+    left:15%    
+}
+
+#goBackBtn{
+    position:relative;
+    width: 224px;
+    height: 90px;
+    font-size: 40px;
+    left: 30px;
+    top: 110px;
+}
+
+#postBtn{
+    top:65px;
+}
+
+#joinBtn{
+    top:210px;
+}
+
+#checkBtn{
+    top:350px;
+}
+
+#checkRideBtn{
+    top:240px;
+}
+
+#checkPostBtn{
+    top:100px;
+}
+
+#dispDiv{
+    position:relative;
+    left:-25px;
+    top:35px;
+    background-color:#07AAFF;
+    color:white;
+    border:none;
+    border-radius: 25px;
+    box-shadow: 5px 8px #575757;
+    width:325px;
+    height:100%;
+}
+
+#dispTxt{
+    font-family: 'Acme', sans-serif;
+    font-size:25px;
+    position:relative;
+    left:25px;
+    top:10px;
+}
+#destinationTxt{
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 18px;
+    text-align: center;
+}
+
+#printDiv{
+    position: absolute;
+    left: 20px;
+    top: 67px;
+    background-color: white;
+    color: grey;
+    border: none;
+    border-radius: 25px;
+    width: 285px;
+    height: 85%;
+    overflow:auto
+
+}
+
+#departureTxt{
+    font-size: 35px;
+    position: relative;
+    /* left: 60px; */
+    top: 20px;
+    padding-bottom: 15px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+
+#checkTxt{
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+    padding-bottom: 15px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+
+h3{
+    padding-bottom:10px;
+    cursor:pointer
+}
+
+#dataTxt{
+    position: relative;
+    left: 5px;
+    top: 0;
+    font-size: 16px;
+    width: 270px;
+}
+
+.wrapDiv{
+    width: 257px;
+    margin: 20px 0;
+    border: 1px solid #07AAFF;
+    border-radius: 5px;
+    padding: 5px 0 5px 5px;
+}
+
+.wrapDiv:hover{
+    background-color: #575757;
+    color:white;
+}
+
+.selectBtn,.chooseBtn{
+    /* position: relative; */
+    border: none;
+    background-color: #07AAFF;
+    color: white;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    top: 15px;
+    /* left: 60px; */
+}
+.chooseBtn{
+    margin-top:20px;
+    left:0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #07AAFF; 
+    border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8c8c8c; 
+}
+
+

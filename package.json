@@ -1,0 +1,28 @@
+{
+  "name": "schoolpool",
+  "version": "1.0.0",
+  "description": "SchoolPool",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtoasis/SchoolPool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtoasis/SchoolPool/issues"
+  },
+  "homepage": "https://github.com/mtoasis/SchoolPool#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql2": "^1.5.2",
+    "nodemon": "^1.14.12",
+    "path": "^0.12.7",
+    "sequelize": "^4.32.2",
+    "twilio": "^3.11.3"
+  }
+}
